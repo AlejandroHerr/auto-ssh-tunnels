@@ -8,3 +8,10 @@ All notable changes to this project will be documented in this file. See [standa
 ### Features
 
 * add Dockerfile ([6ba0924](https://github.com/AlejandroHerr//auto-ssh-tunnels/commit/6ba0924514be04b9c3bc70dde10beaf64c12627b))
+
+## 1.0.0 (2021-08-21)
+
+
+### Features
+
+* add Dockerfile ([6ba0924](https://github.com/AlejandroHerr//auto-ssh-tunnels/commit/6ba0924514be04b9c3bc70dde10beaf64c12627b))
