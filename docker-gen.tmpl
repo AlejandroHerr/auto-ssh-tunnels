@@ -1,0 +1,9 @@
+{{ range $container := $ }}
+  {{ $enabled := index $container.Labels "autotunnel.enable" }}
+  {{ if $enabled }}
+    {{ $localhost := $container.Hostname }}
+    {{ $localPort := index $container.Labels "autotunnel.localPort" }}
+    {{ $remotePort := index $container.Labels "autotunnel.remotePort" }}
+0.0.0.0:{{ $remotePort }}:{{ $localhost }}:{{ $localPort }}
+  {{ end }}
+{{ end }}
