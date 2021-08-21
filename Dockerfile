@@ -35,7 +35,7 @@ RUN mkdir /logs
 
 COPY ./entrypoint.sh /entrypoint.sh
 COPY ./docker-gen.cfg /docker-gen.cfg
-COPY ./tunneler.tmpl /tunneler.tmpl
+COPY ./docker-gen.tmpl /docker-gen.tmpl
 COPY ./startTunnels.sh /startTunnels.sh
 COPY --from=dockergen /usr/local/bin/docker-gen /usr/local/bin/docker-gen
 
