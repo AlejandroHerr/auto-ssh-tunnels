@@ -1,6 +1,6 @@
 {
   "name": "auto-ssh-tunnels",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "scripts": {
     "commit": "git-cz",
