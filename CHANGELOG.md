@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/AlejandroHerr//auto-ssh-tunnels/compare/v1.0.4...v1.0.5) (2021-11-25)
+
+
+### Bug Fixes
+
+* **autossh:** add ExitOnForwardFailure option ([12761af](https://github.com/AlejandroHerr//auto-ssh-tunnels/commit/12761af0c41a7282cc7b27c79f33ca5c2e1d8910))
+
 ### [1.0.4](https://github.com/AlejandroHerr//auto-ssh-tunnels/compare/v1.0.3...v1.0.4) (2021-08-21)
 
 
